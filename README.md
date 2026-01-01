@@ -5,7 +5,7 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-Workflow-orange)
 ![Groq](https://img.shields.io/badge/Groq-LPU-green)
 
-**AI Research Assistant** is an intelligent agent designed to determine whether a user query requires real-time web search or can be answered using internal knowledge. Built using **LangGraph** for state management, **Groq** for ultra-fast inference, and **Tavily** for optimized search results.
+**groq-langgraph-researcher** is an intelligent agent designed to determine whether a user query requires real-time web search or can be answered using internal knowledge. Built using **LangGraph** for state management, **Groq** for ultra-fast inference, and **Tavily** for optimized search results.
 
 ## 🚀 Key Features
 
@@ -14,6 +14,19 @@
 * **Real-Time Data**: Integrates Tavily Search API to fetch current events and specific data sources.
 * **High-Speed Inference**: Powered by the **Llama-3.3-70b-versatile** model via Groq.
 * **Interactive UI**: A clean Streamlit interface with step-by-step process visualization and session history.
+
+  ## 📸 Screenshots
+
+<div align="center">
+  <img src="dashboard.png" alt="Research Assistant Dashboard" width="800"/>
+  <p><em>The main research interface with intelligent query routing</em></p>
+  
+  <br>
+  
+  <img src="results.jpg" alt="Research Results" width="800"/>
+  <p><em>Comprehensive research results generated with citations</em></p>
+</div>
+
 
 ## 🛠️ Tech Stack
 
