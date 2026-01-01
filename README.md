@@ -23,7 +23,7 @@
   
   <br>
   
-  <img src="results.jpg" alt="Research Results" width="800"/>
+  <img src="results.png" alt="Research Results" width="800"/>
   <p><em>Comprehensive research results generated with citations</em></p>
 </div>
 
