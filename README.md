@@ -1,4 +1,4 @@
-# 🔍 AI Research Assistant
+# 🔍 groq-langgraph-researcher
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
