@@ -1,0 +1,127 @@
+# =========================
+# 🧠 RAG System – Python
+# Futuristic .gitignore
+# =========================
+
+# -------------------------
+# 🐍 Python Core
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# -------------------------
+# 🌌 Virtual Environments
+# -------------------------
+venv/
+.venv/
+env/
+ENV/
+.python-version
+agentic_venv/
+
+# -------------------------
+# 📦 Dependency Managers
+# -------------------------
+pip-wheel-metadata/
+poetry.lock
+Pipfile.lock
+
+# -------------------------
+# 🧪 Testing & Coverage
+# -------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# -------------------------
+# 🧾 Logs & Runtime Files
+# -------------------------
+*.log
+logs/
+*.pid
+
+# -------------------------
+# 🧠 RAG Specific (CRITICAL)
+# -------------------------
+
+# Vector stores / embeddings
+vector_store/
+vectordb/
+chroma/
+faiss_index/
+*.faiss
+*.index
+*.bin
+
+# Cached embeddings
+embeddings/
+embedding_cache/
+*.npy
+
+# Document chunks & processed data
+data/processed/
+data/chunks/
+chunk_cache/
+
+# LLM / RAG cache
+.cache/
+rag_cache/
+llm_cache/
+
+# -------------------------
+# 🔐 Secrets & Config
+# -------------------------
+.env
+*.env
+secrets/
+credentials.json
+config/local.yaml
+config/local.yml
+
+# -------------------------
+# 📊 Notebooks & Artifacts
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb
+reports/
+artifacts/
+
+# -------------------------
+# 🧠 ML / NLP Artifacts
+# -------------------------
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+
+# -------------------------
+# 🧰 IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+*.swp
+
+# -------------------------
+# 🖥️ OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# 🚀 Deployment
+# -------------------------
+docker-compose.override.yml
+*.local
+*.pem
+*.key
