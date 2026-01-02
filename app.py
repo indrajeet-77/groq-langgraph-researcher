@@ -97,7 +97,7 @@ with st.sidebar:
 
 # --- Main Interface ---
 st.markdown(
-    '<div class="main-header">🔍 AI Research Assistant</div>', unsafe_allow_html=True
+    '<div class="main-header">🔍 groq-langgraph-researcher </div>', unsafe_allow_html=True
 )
 st.markdown(
     '<div class="sub-header">Your intelligent partner for deep research and quick answers.</div>',
